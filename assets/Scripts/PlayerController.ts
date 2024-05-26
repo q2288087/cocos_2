@@ -14,7 +14,7 @@ export class PlayerController extends Component {
     private _startJump: boolean = false;
     private _jumpStep: number = 0;
     private _curJumpTime: number = 0;
-    private _jumpTime: number = 0.2;
+    private _jumpTime: number = 0.1;
     private _curJumpSpeed: number = 0;
     private _curPos: Vec3 = new Vec3();
     private _deltaPos: Vec3 = new Vec3(0, 0, 0);
